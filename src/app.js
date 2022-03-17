@@ -10,7 +10,7 @@ const USER = [];
 
 const checkCpfParams = (req, res, next) => {
   const { cpf } = req.params;
-  const user = USER.find((i) => i.cpf === parseInt(cpf, 10));
+  const user = USER.find((i) => i.cpf === cpf);
 
   if (!user) {
     return res.status(404).json({ error: 'user is not registered' });

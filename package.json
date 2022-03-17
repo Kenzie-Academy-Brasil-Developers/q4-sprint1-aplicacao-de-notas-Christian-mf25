@@ -1,13 +1,13 @@
 {
   "name": "q4-sprint1-aplicacao-de-notas-Christian-mf25",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/app.js",
   "type": "module",
   "repository": "git@github.com:Kenzie-Academy-Brasil-Developers/q4-sprint1-aplicacao-de-notas-Christian-mf25.git",
   "author": "Christian <christian.mf22@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon ./src/app.js"
   },
   "dependencies": {
     "express": "^4.17.3",
